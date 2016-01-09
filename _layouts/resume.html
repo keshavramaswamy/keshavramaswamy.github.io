@@ -89,6 +89,33 @@
       </section>
       <!-- end Education -->
       {% endif %}
+      
+      {% if site.resume_section_personal_projects %}
+      <!-- begin Personal Projects -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Personal Projects</h2>
+        </header>
+          <p>Working on hobby projects give me the freedom to experiment new technologies and learn concepts outside the coursework. I work on a multiple hobby projects to improve my statistics, python development and machine learning chops. </p>
+        
+        <div class="survival_analysis">
+          <h3 class="survival_analysis"><a href="http://nbviewer.ipython.org/github/keshavramaswamy/ipython-notebooks/blob/master/survival_analysis.ipynb">Survival Analysis in Cricket</a></h3>
+          <p class="recoprod-details"></p>
+        </div>
+        
+        <div class="bitcoins">
+          <h3 class="bitcoins-link"><a href="https://github.com/keshavramaswamy/Bitcoins-Scala">Bitcoin Generator on Distributed Systems</a></h3>
+          <p class="bitcoins-desc">A distributed system using Akka Actor model in Scala was developed. Bitcoins were mined using SHA-256 algorithm with the required number of leading zeros.CPU performance was measured and analyzed.</p>
+        </div>
+
+        <div class="twitter">
+          <h3 class="twitter-link"><a href="https://github.com/keshavramaswamy/Twitter-Simulator">Twitter Simulator</a></h3>
+          <p class="twitter-details">An application which simulates Twitter functionalities using Scala and AKKA actor model was built. Functionalities similar to REST APIs such as Post Tweet, Get Tweet using Spray-Can were developed. Hash tag search and Peak hour simulation were also implemented. </p>
+        </div>
+      </section>
+      <!-- end Projects -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
